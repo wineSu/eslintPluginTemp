@@ -8,7 +8,7 @@ const ruleTableRows = Object.keys(rules)
     return [
       docs.recommended ? '✔' : '',
       fixable ? '🔧' : '',
-      `[@alife/ajx/${id}](https://code.aone.alibaba-inc.com/ajx-c1-spec-kits/ajx-spec/blob/master/packages/eslint-plugin-ajx/docs/rules/${id}.md)`,
+      `[xxx/self/${id}](rules/${id}.md)`,
       docs.description,
     ].join(' | ');
   });
