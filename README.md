@@ -15,7 +15,7 @@
 ## <span id="jump2">插件使用</span>
 安装包
 ```
-tnpm install xxx/eslint-plugin-self --save
+npm install xxx/eslint-plugin-self --save
 ```
 
 ## <span id="jump3">项目中配置</span>
