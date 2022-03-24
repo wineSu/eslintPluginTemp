@@ -1,0 +1,37 @@
+{
+  "name": "xxxx/eslint-plugin-ajx",
+  "version": "1.1.0",
+  "description": "lint plugins",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "scripts": {
+    "createrule": "scripty",
+    "gen-readme-rules": "md-magic --path README.md"
+  },
+  "files": [
+    "docs",
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.3",
+    "@babel/preset-env": "^7.16.0",
+    "ejs": "^3.1.6",
+    "eslint": "^7.32.0",
+    "jscodeshift": "^0.13.0",
+    "markdown-magic": "^2.5.2",
+    "scripty": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ast-types": "^0.14.2",
+    "requireindex": "^1.2.0"
+  }
+}

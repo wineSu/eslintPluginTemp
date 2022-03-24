@@ -1,0 +1,22 @@
+const { RuleTester } = require('eslint');
+const rule = require('../../../lib/rules/<%= name %>');
+
+const ruleTester = new RuleTester({ parserOptions: { ecmaVersion: 2020, sourceType: 'module' } });
+
+ruleTester.run('<%= name %>', rule, {
+  valid: [
+    // give me some code that won't trigger a warning
+  ],
+  invalid: [
+    {
+      code: '',
+      errors: [
+        {
+          messageId: '',
+          data: {},
+        },
+      ],
+      output: '',
+    },
+  ],
+});
